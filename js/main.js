@@ -35,7 +35,7 @@ createApp({
   },
   methods: {
       addToDo(){
-        this.todoList.text.push(newtodo);
+        this.todoList.push(newtodo);
       },
 
       removeToDo(i) {
